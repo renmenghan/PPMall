@@ -1,0 +1,27 @@
+/*
+* @Author: ren522686239
+* @Date:   2017-11-26 11:59:42
+* @Last Modified by:   ren522686239
+* @Last Modified time: 2017-11-26 12:42:57
+*/
+.nav{
+	height: 30px;
+	line-height: 30px;
+	background: #eee;
+}
+.nav .user-info{
+	float: left;
+}
+.nav .user-info .link{
+	margin-right: 5px;
+}
+.nav .user-info.login-info{
+	display: none;
+}
+.nav .nav-list{
+	float: right;
+}
+.nav .nav-list .nav-item{
+	margin-right: 5px;
+	display: inline-block;
+}

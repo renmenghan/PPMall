@@ -1,0 +1,23 @@
+/*
+* @Author: ren522686239
+* @Date:   2017-11-26 20:31:48
+* @Last Modified by:   ren522686239
+* @Last Modified time: 2017-11-26 20:36:20
+*/
+.nav-side{
+	max-height: 100px;
+	width: 150px;
+	float: left;
+	line-height: 25px;
+	font-size: 13px;
+}
+.nav-side .nav-item .link{
+	color: #333;
+}
+.nav-side .nav-item.active .link{
+	color: #FFD856;
+}
+.content{
+	float: left;
+	width: 930px;
+}

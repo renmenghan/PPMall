@@ -1,0 +1,9 @@
+/*
+* @Author: ren522686239
+* @Date:   2017-11-30 16:03:25
+* @Last Modified by:   ren522686239
+* @Last Modified time: 2017-11-30 16:07:21
+*/
+.banner { position: relative; overflow: auto; }
+.banner li { list-style: none; }
+.banner ul li { float: left; }

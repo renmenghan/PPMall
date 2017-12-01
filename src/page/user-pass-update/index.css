@@ -1,0 +1,27 @@
+/*
+* @Author: ren522686239
+* @Date:   2017-11-28 21:28:54
+* @Last Modified by:   ren522686239
+* @Last Modified time: 2017-11-28 22:48:28
+*/
+.form-line{
+	margin-bottom: 10px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+.form-line .label{
+	display: inline-block;
+	width: 80px;
+}
+.form-line .text{
+	font-size: 12px;
+}
+.form-line .input
+{
+	height: 25px;
+	line-height: 25px;
+	width: 200px;
+	font-size: 14px;
+	outline: none;
+}

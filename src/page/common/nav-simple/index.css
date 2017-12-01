@@ -1,0 +1,20 @@
+/*
+* @Author: ren522686239
+* @Date:   2017-11-25 16:47:17
+* @Last Modified by:   ren522686239
+* @Last Modified time: 2017-11-26 11:56:00
+*/
+.nav-simple {
+	background: #fff;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	border: 1px solid #ddd;
+	
+}
+.nav-simple .logo{
+	text-decoration:none;
+	font-size: 28px;
+	cursor: pointer;
+	color: #FFD856;
+}
