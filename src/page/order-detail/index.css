@@ -1,0 +1,67 @@
+/*
+* @Author: ren522686239
+* @Date:   2017-12-05 17:18:21
+* @Last Modified by:   ren522686239
+* @Last Modified time: 2017-12-05 20:22:42
+*/
+.order-detail .text-line{
+	height: 35px;
+	line-height: 35px;
+}
+.order-detail .text{
+	margin-right: 5px;
+}
+.order-detail .text-line .btn{
+	font-size: 12px;
+	height: 30px;
+	width: 50px;
+	line-height: 30px;
+	text-align: center;
+}
+.total-con{
+	background: #fff;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 10px;
+	text-align: right;
+}
+.total-con .total-price{
+	font-size: 14px;
+	color: #FFD856;
+	font-weight: bold;
+}
+/*product list*/
+.product-table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.product-table td,th{
+	border-bottom: 1px dotted #ddd;
+	height: 30px;
+	line-height: 30px;
+}
+.product-table .cell-img{
+	width: 10%;
+}
+.product-table .cell-img .p-img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #ddd;
+	margin: 10px 0 10px 10px;
+}
+.product-table .cell-info{
+	width: 45%;
+	padding: 0 10px;
+}
+.product-table .cell-price{
+	width: 15%;
+	text-align: center;
+}
+.product-table .cell-count{
+	width: 15%;
+	text-align: center;
+}
+.product-table .cell-total{
+	width: 15%;
+	text-align: center;
+}

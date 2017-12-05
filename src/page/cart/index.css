@@ -1,0 +1,130 @@
+/*
+* @Author: ren522686239
+* @Date:   2017-12-02 16:21:47
+* @Last Modified by:   ren522686239
+* @Last Modified time: 2017-12-02 20:01:36
+*/
+.cart-header{
+	background:#eee;
+}
+.cart-table{
+	width: 100%;
+	border-collapse: collapse;
+	border:  1px solid #ebebeb;
+	margin-bottom: 10px;
+}
+.cart-table .cart-cell{
+	height: 40px;
+	line-height: 40px;
+}
+.cart-table .cart-check{
+	width: 6%;
+	text-align: left;
+	padding-left: 20px;
+}
+.cart-table .cart-info{
+	width: 45%;
+	text-align: left;
+}
+.cart-header .cart-info{
+	padding-left: 105px;
+}
+.cart-list .cart-info{
+	width:  35%;
+	text-align: left;
+}
+.cart-list .cart-img{
+	width:  10%;
+}
+.cart-list .cart-img .p-img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #ddd;
+	margin: 10px 0;
+	cursor: pointer;
+}
+.cart-table .cart-price{
+	width: 10%;
+	text-align: center;
+}
+.cart-table .cart-count{
+	width: 15%;
+	text-align: center;
+}
+.cart-table .cart-total{
+	width: 14%;
+	text-align: center;
+}
+.cart-table .cart-opera{
+	width: 10%;
+	text-align: center;
+}
+
+.cart-count .cart-btn{
+	display: inline-block;
+	height: 28px;
+	width: 20px;
+	line-height: 28px;
+	border: 1px solid #ddd;
+	background: #fff;
+	vertical-align: middle;
+	cursor: pointer;
+	user-select:none;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	-ms-user-select:none;
+}
+.cart-count .count-input{
+	width: 60px;
+	height: 28px;
+	vertical-align: middle;
+	border: 1px solid #ddd;
+	text-align: center;
+	outline: none;
+}
+/*footer*/
+.cart-footer{
+	overflow: hidden;
+	background: #eee;
+	height: 50px;
+	line-height: 50px;
+}
+.cart-footer .select-con{
+	float: left;
+	padding-left: 20px;
+}
+.cart-footer .delete-con{
+	float: left;
+	padding-left: 20px;
+}
+.cart-footer .submit-con{
+	display: inline-block;
+	float: right;
+	height: 50px;
+	line-height: 50px;
+	overflow: hidden;
+}
+.cart-footer .submit-con .submit-total{
+	font-size: 18px;
+	color: #FFD856;
+	font-weight: bold;
+	margin-right: 40px;
+}
+.cart-footer .submit-con .submit-btn{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	vertical-align: top;
+}
+/* 错误信息 */
+.err-tip{
+	padding: 0px 10px;
+	height: 40px;
+	line-height: 40px;
+	color: #f60;
+	font-weight: bold;
+	text-align: center;
+	background: #eee;
+}

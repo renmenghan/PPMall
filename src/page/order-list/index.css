@@ -1,0 +1,78 @@
+/*
+* @Author: ren522686239
+* @Date:   2017-12-05 17:17:44
+* @Last Modified by:   ren522686239
+* @Last Modified time: 2017-12-05 18:23:25
+*/
+.order-list .order-list-table{
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom:  18px;
+	background: #fafafa;
+}
+.order-list .order-list-tabl td,th{
+	border-bottom: 1px dotted #ddd;
+}
+.order-list .order-list-table .order-list-cell{
+	border-bottom: 1px solid #eee;
+}
+.order-list .header{
+	background: #eee;
+	height: 30px;
+	line-height: 30px;
+	color: #666;
+}
+.order-list-table .order-info{
+	height: 20px;
+	line-height: 20px;
+	background: #eee;
+	padding: 10px;
+}
+.order-list-table .order-info .order-text{
+	margin-right: 30px;
+	color: #999;
+}
+.order-list-table .order-info .order-text .order-price{
+	color: #FFD856;
+	font-weight: bold;
+}
+.order-list-table .order-info .pull-right{
+	float: right;
+}
+.order-list-table .cell-img{
+	width: 10%;
+	padding: 10px;
+}
+.order-list-table .cell-img .p-img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #ddd;
+}
+.order-list-table .cell-info{
+	width: 45%;
+	text-align: left;
+	padding: 0 10px;
+}
+.order-list-table .cell-price{
+	width: 15%;
+	text-align: center;
+}
+.order-list-table .cell-count{
+	width: 15%;
+	text-align: center;
+}
+.order-list-table .cell-total{
+	width: 15%;
+	text-align: center;
+}
+
+/* 错误信息 */
+.err-tip{
+	padding: 0px 10px;
+	height: 40px;
+	line-height: 40px;
+	color: #f60;
+	font-weight: bold;
+	text-align: center;
+	background: #eee;
+}

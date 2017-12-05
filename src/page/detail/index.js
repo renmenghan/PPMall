@@ -2,7 +2,7 @@
 * @Author: ren522686239
 * @Date:   2017-12-01 16:31:23
 * @Last Modified by:   ren522686239
-* @Last Modified time: 2017-12-01 18:46:46
+* @Last Modified time: 2017-12-02 19:14:26
 */
 
 'use strict';
@@ -63,6 +63,9 @@ var page = {
 		
 	},
 	onLoad : function(){
+		if (!this.data.productId) {
+			_mm.goHome();	
+		}
 		this.loadDetail();
 	},
 	// 加载列表
